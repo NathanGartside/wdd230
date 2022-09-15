@@ -1,0 +1,13 @@
+img {
+    height: 150px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: aquamarine;
+    height: 220px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px grey;
+}
