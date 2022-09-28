@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Abyssinica SIL', serif;
+}
+
+header {
+    display: block;
+    background-color: black;
+    text-align: center;
+}
+
+header h2 {
+    color: white;
+}
+
+.title {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.name {
+    margin-top: 0;
+}
+
+.containers {
+    width: 95%;
+    background-color: #eeeeee;
+    margin: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.containers div {
+    background-color: #3a4958;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+footer {
+    display: table;
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+}
+
+.containers div p {
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .containers {
+        height: 1000px;
+    }
+
+    .containers div p {
+        padding-top: 0;
+    }
+
+    .last {
+        grid-column: 1/3;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 900px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .containers {
+        height: 1000px;
+    }
+
+    .containers div p {
+        padding-top: 0;
+
+    }
+
+    .last {
+        grid-column: 3/4;
+    }
+
+}
