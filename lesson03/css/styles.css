@@ -2,4 +2,49 @@
 
 body {
     font-family: 'Abyssinica SIL', serif;
+    text-align: center;
+}
+
+header {
+    display: block;
+    background-color: #5e763e;
+    color: white;
+    text-align: center;
+}
+
+a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    top: 10px;
+}
+
+header div {
+    padding-bottom: 15px;
+    border-style: double;
+    height: 20px;
+}
+
+footer {
+    display: block;
+    background-color: #5e763e;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    main {
+        width: 600px;
+        text-align: center;
+        margin: auto;
+    }
+
 }
