@@ -13,10 +13,9 @@ header {
 }
 
 a {
-    position: absolute;
     text-decoration: none;
     color: white;
-    top: 10px;
+
 }
 
 header div {
@@ -45,6 +44,11 @@ li {
         width: 600px;
         text-align: center;
         margin: auto;
+    }
+
+    a {
+        position: absolute;
+        top: 10px;
     }
 
 }
