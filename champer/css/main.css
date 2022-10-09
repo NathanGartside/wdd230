@@ -1,0 +1,68 @@
+ul {
+    display: none;
+}
+
+.responsive {
+    display: block;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+
+}
+
+.responsive a {
+    text-decoration: none;
+    color: black;
+}
+
+.responsive li {
+    text-align: center;
+    background-color: #1e8bc6;
+}
+
+header {
+    background-color: #5e763e;
+}
+
+button {
+    background-color: #5e763e;
+}
+
+.logo {
+    padding-top: 7px;
+    padding-left: 5px;
+    height: 40px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 10% 60% 10% 10% 10%;
+}
+
+img {
+    height: 30px;
+    padding-top: 10px;
+}
+
+h3 {
+    margin-top: 8px;
+    margin-bottom: 2.5px;
+    margin-left: 5px;
+    color: white;
+}
+
+h4 {
+    margin-top: 2.5px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    color: white;
+}
+
+#date {
+    width: 90%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.174);
+    margin: auto;
+    color: white;
+    text-align: center;
+}
