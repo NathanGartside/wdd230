@@ -12,3 +12,7 @@ let month = new Map([['0', 'January'], ['1', 'February'], ['2', 'March'], ['3', 
 let day = `${dayOfWeek.get(today.getDay().toString())}, ${today.getDate()} ${month.get(today.getMonth().toString())} ${today.getFullYear()}`;
 
 document.getElementById("date").textContent = day;
+
+
+document.querySelector("footer p span").textContent = today.getFullYear();
+document.getElementsByClassName('lastTimeUpdate')[0].textContent = document.lastModified;
