@@ -81,3 +81,38 @@ footer h3 {
 footer p {
     margin: 0;
 }
+
+footer img {
+    height: 80px;
+}
+
+main div {
+    background-color: grey;
+    height: 100px;
+    width: 100%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#spotlightConatiner {
+    height: 220px;
+}
+
+#spot1 {
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#spot2 {
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#spot3 {
+    display: none;
+}
