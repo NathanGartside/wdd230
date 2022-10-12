@@ -1,0 +1,50 @@
+@media screen and (min-width: 600px) {
+    .footContaniner {
+        display: grid;
+        grid-template-columns: 15% 35% 50%;
+    }
+
+    footer img {
+        height: 70px;
+    }
+
+    footer div div h3 {
+        margin-top: 30px;
+    }
+
+    .email {
+        margin-top: 30px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #hero {
+        grid-column: 1/3;
+    }
+
+    #news {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    #spotlightConatiner {
+        grid-column: 1/3;
+        grid-row: 3/4;
+        display: flex;
+        height: 110px;
+    }
+
+    .copy {
+        display: flex;
+        justify-content: center;
+    }
+
+    .barrier {
+        display: inline;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

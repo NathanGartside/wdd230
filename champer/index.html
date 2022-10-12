@@ -8,6 +8,8 @@
     <meta name="description" content="Home page for the chamber of commerce site">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/big.css">
     <script src="./jss/main.js" defer></script>
     <title>Chamber of Commerce</title>
 </head>
@@ -20,16 +22,17 @@
                 <h3>Riverside</h3>
                 <h4>Chamber of Commerce</h4>
             </div>
-            <img src="./img/facebook.jpg" alt="Facebook logo">
-            <img src="./img/linkedin.png" alt="Linkedin logo">
-            <button id="menu" onclick="toggleMenu()">&#9776;</button>
+            <img src="./img/facebook.jpg" class="facebook" alt="Facebook logo">
+            <img src="./img/linkedin.png" class="link" alt="Linkedin logo">
+            <button id="menu" onclick="toggleMenu()"><span>&#9776;</span></button>
+            <ul class="navigation">
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
-        <ul class="navigation">
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+
         <div id="date"></div>
     </header>
     <main>
@@ -44,16 +47,27 @@
         </div>
     </main>
     <footer>
-        <img src="./img/river_logo.jpg" alt="River Logo">
-        <h3>Riverside Champer</h3>
-        <p>Antarctica</p>
-        <p>coldplace@gmail.com</p>
-        <p>+(191) 9191-9191</p>
-        <a href="https://goo.gl/maps/RjgmWbC2CUPBoTAD7">Location Map</a>
-        <p class="copyright">&copy; <span></span> Riverside Chamber</p>
-        <p>Nathan Gartside</p>
-        <p>WDD 230 Project</p>
-        <p>Last Updated: <span class="lastTimeUpdate"></span></p>
+        <div class="footContaniner">
+            <img src="./img/river_logo.jpg" alt="River Logo">
+            <div>
+                <h3>Riverside Champer</h3>
+                <p>Antarctica</p>
+            </div>
+            <div>
+                <p class="email">coldplace@gmail.com</p>
+                <p>+(191) 9191-9191</p>
+                <a href="https://goo.gl/maps/RjgmWbC2CUPBoTAD7">Location Map</a>
+            </div>
+        </div>
+        <div class="copy">
+            <p class="copyright">&copy; <span></span> Riverside Chamber</p>
+            <p class="barrier"> | </p>
+            <p>Nathan Gartside</p>
+            <p class="barrier"> | </p>
+            <p>WDD 230 Project</p>
+            <p class="barrier"> | </p>
+            <p>Last Updated: <span class="lastTimeUpdate"></span></p>
+        </div>
     </footer>
 </body>
 
