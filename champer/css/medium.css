@@ -37,6 +37,12 @@
         height: 110px;
     }
 
+    #join {
+        grid-column: 1/3;
+        grid-row: 4/5;
+        display: inline;
+    }
+
     .copy {
         display: flex;
         justify-content: center;

@@ -125,3 +125,7 @@ nav div {
 .barrier {
     display: none;
 }
+
+#join {
+    display: none;
+}
