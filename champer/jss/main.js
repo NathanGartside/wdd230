@@ -16,3 +16,7 @@ document.getElementById("date").textContent = day;
 
 document.querySelector("footer p span").textContent = today.getFullYear();
 document.getElementsByClassName('lastTimeUpdate')[0].textContent = document.lastModified;
+
+if (today.getDay() == 1 || today.getDay() == 2 || today.getDay() == 4) {
+    document.getElementById("message").style.display = 'block';
+}

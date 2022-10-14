@@ -129,3 +129,12 @@ nav div {
 #join {
     display: none;
 }
+
+#message {
+    display: none;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+/* background-color: rgba(0,0,0,.3) change shade */
