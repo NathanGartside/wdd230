@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for the chamber of commerce site">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/big.css">
+    <script src="./jss/main.js" defer></script>
+    <title>Riverside Chamber of Commerce</title>
+</head>
+
+<body>
+    <header>
+        <p id="message">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+        <nav>
+            <img class='logo' src="./img/river_logo.jpg" alt="River logo">
+            <div>
+                <h3>Riverside</h3>
+                <h4>Chamber of Commerce</h4>
+            </div>
+            <img src="./img/facebook.jpg" class="facebook" alt="Facebook logo">
+            <img src="./img/linkedin.png" class="link" alt="Linkedin logo">
+            <button id="menu" onclick="toggleMenu()"><span>&#9776;</span></button>
+            <ul class="navigation">
+                <li class="link"><a href="#">Discover</a></li>
+                <li class="link"><a href="#">Directory</a></li>
+                <li class="link"><a href="#">Join</a></li>
+                <li class="link"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="date"></div>
+    </header>
+    <main>
+        <div id="hero">
+            <h3>Welcome to Riverside</h3>
+            <img src="./img/hero.jpg" alt="Hero Image">
+            <button>Join Us</button>
+        </div>
+        <div id="event">
+            <h3>Reward show</h3>
+            <h4>The IceCream Shop</h4>
+            <p>Join us for the reward show for the different business's here at Riverside</p>
+        </div>
+        <div id="weather">
+            <h3 class="title">Weather</h3>
+            <img src="./img/weather.png" alt="Weather img">
+            <h3 class="temp">64&#8457;</h3>
+            <p>Wind Speed:</p>
+            <p>1.4 km/h</p>
+            <p>Wind Chill:</p>
+            <p>N/A</p>
+        </div>
+        <div id="join">
+            <button>Join</button>
+            <p>Join the chamber of commerce to recieve benefits to your business today</p>
+        </div>
+        <div id="news">
+            <h3>News Release</h3>
+            <p>Thanksgiving airfare prices are currently averaging $281 round trip, up 25% from last year, according to
+                travel booking group Hopper.
+                For Christmas travel, airfare prices are averaging $435 round trip, up 55% from last year and 19% higher
+                than in 2019.</p>
+        </div>
+        <div id="spotlightConatiner">
+            <div id="spot1">
+                <h3>Burgers</h3>
+                <img src="./img/burger.png" alt="Burger">
+                <p>burger@gmail.com</p>
+                <p>+123-123-1234 Website</p>
+            </div>
+            <div id="spot2">
+                <h3>Laptops</h3>
+                <img src="./img/laptop.png" alt="Laptop">
+                <p>laptop.gmail.com</p>
+                <p>+234-234-2341</p>
+            </div>
+            <div id="spot3">
+                <h3>Windows</h3>
+                <img src="./img/window.png" alt="Window">
+                <p>window@gmail.com</p>
+                <p>+345-345-3452</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footContaniner">
+            <img src="./img/river_logo.jpg" alt="River Logo">
+            <div>
+                <h3>Riverside Chamber</h3>
+                <p>Antarctica</p>
+            </div>
+            <div>
+                <p class="email">coldplace@gmail.com</p>
+                <p>+(191) 9191-9191</p>
+                <a href="https://goo.gl/maps/RjgmWbC2CUPBoTAD7">Location Map</a>
+            </div>
+        </div>
+        <div class="copy">
+            <p class="copyright">&copy; <span></span> Riverside Chamber</p>
+            <p class="barrier"> | </p>
+            <p>Nathan Gartside</p>
+            <p class="barrier"> | </p>
+            <p>WDD 230 Project</p>
+            <p class="barrier"> | </p>
+            <p>Last Updated: <span class="lastTimeUpdate"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
