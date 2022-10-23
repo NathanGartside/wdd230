@@ -40,7 +40,8 @@ nav {
     display: flex;
 }
 
-img {
+.facebook,
+.linkin {
     height: 30px;
     padding-top: 10px;
 }
@@ -147,11 +148,6 @@ nav div {
     text-align: center;
 }
 
-#hero img {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-}
 
 #hero h3 {
     position: absolute;

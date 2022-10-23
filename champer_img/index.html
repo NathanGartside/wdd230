@@ -24,7 +24,7 @@
                 <h4>Chamber of Commerce</h4>
             </div>
             <img src="./img/facebook.jpg" class="facebook" alt="Facebook logo">
-            <img src="./img/linkedin.png" class="link" alt="Linkedin logo">
+            <img src="./img/linkedin.png" class="linkin" alt="Linkedin logo">
             <button id="menu" onclick="toggleMenu()"><span>&#9776;</span></button>
             <ul class="navigation">
                 <li class="link"><a href="#">Discover</a></li>
@@ -39,7 +39,11 @@
     <main>
         <div id="hero">
             <h3>Welcome to Riverside</h3>
-            <img src="./img/hero.jpg" alt="Hero Image">
+            <picture>
+                <source media="(min-width: 900px)" srcset="./img/wdd230-org-large.jpg">
+                <source media="(min-width: 700px)" srcset="./img/wdd230-org-medium.jpg">
+                <img src="./img/wdd230-org-small.jpg" alt="Hero Img">
+            </picture>
             <button>Join Us</button>
         </div>
         <div id="event">
