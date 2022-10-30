@@ -20,3 +20,13 @@ document.getElementsByClassName('lastTimeUpdate')[0].textContent = document.last
 if (today.getDay() == 1 || today.getDay() == 2) {
     document.getElementById("message").style.display = 'block';
 }
+
+let oldDate = window.localStorage.getItem("lastDate");
+
+let numOfDays = 0;
+
+if (oldDate !== null) {
+    numOfDays = (today.getTime() - oldDate.getTime()) / (1000 * 3600 * 24);
+}
+
+localStorage.setItem("lastDate", today);
