@@ -207,4 +207,5 @@ main h4 {
 .discover div img {
     width: 100%;
     height: auto;
+    padding-top: 0;
 }
