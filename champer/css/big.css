@@ -96,4 +96,9 @@
         top: 550px;
     }
 
+    .discover {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }

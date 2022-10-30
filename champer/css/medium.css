@@ -74,4 +74,9 @@
     #event h4 {
         margin-top: 20px;
     }
+
+    .discover {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
