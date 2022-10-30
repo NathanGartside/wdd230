@@ -21,12 +21,14 @@ if (today.getDay() == 1 || today.getDay() == 2) {
     document.getElementById("message").style.display = 'block';
 }
 
-let oldDate = window.localStorage.getItem("lastDate");
+let oldDate = Date.parse(window.localStorage.getItem("lastDate"));
 
 let numOfDays = 0;
 
 if (oldDate !== null) {
-    numOfDays = (today.getTime() - oldDate.getTime()) / (1000 * 3600 * 24);
+    numOfDays = Math.floor((today.getTime() - oldDate) / (1000 * 3600 * 24));
 }
 
 localStorage.setItem("lastDate", today);
+
+document.getElementsByClassName("daysVisited")[0].textContent = numOfDays;
