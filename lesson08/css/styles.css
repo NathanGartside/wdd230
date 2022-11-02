@@ -1,5 +1,8 @@
 table {
     border-collapse: collapse;
+    box-shadow: 10px 8px 10px 0px rgba(110, 148, 172, 0.75);
+    -webkit-box-shadow: 10px 8px 10px 0px rgba(110, 148, 172, 0.75);
+    -moz-box-shadow: 10px 8px 10px 0px rgba(110, 148, 172, 0.75);
 }
 
 table,
@@ -8,6 +11,7 @@ th,
 caption {
     border: 1px solid;
     border-color: grey;
+
 }
 
 body {
@@ -19,6 +23,9 @@ body {
 caption {
     background-color: #7fb9c2;
     font-size: 25px;
+    box-shadow: 10px 8px 10px 0px rgba(110, 148, 172, 0.75);
+    -webkit-box-shadow: 10px 8px 10px 0px rgba(110, 148, 172, 0.75);
+    -moz-box-shadow: 10px 8px 10px 0px rgba(110, 148, 172, 0.75);
 }
 
 thead {
