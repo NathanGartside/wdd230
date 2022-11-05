@@ -209,3 +209,59 @@ main h4 {
     height: auto;
     padding-top: 0;
 }
+
+.myinput {
+    display: block;
+    padding-top: 1px;
+}
+
+.myinput input,
+.myinput textarea {
+    display: block;
+    padding: .5rem;
+    width: 20rem;
+    max-width: 20rem;
+}
+
+.myradio {
+    display: block;
+}
+
+.myradio input {
+    margin-right: .5rem;
+    font-size: 1.3rem;
+}
+
+input:required {
+    border-color: black;
+}
+
+.myinput {
+    font-size: 20px;
+}
+
+.myradio {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+input {
+    margin: auto;
+}
+
+textarea {
+    margin: auto;
+}
+
+#thanks {
+    width: 95%;
+    margin: auto;
+    height: 50px;
+}
+
+#thanksMain {
+    display: block;
+}

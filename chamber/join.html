@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/big.css">
     <script src="./jss/main.js" defer></script>
+    <script src="./jss/join.js" defer></script>
     <title>Join the Riverside chamber</title>
 </head>
 
@@ -28,15 +29,67 @@
             <ul class="navigation">
                 <li class="link"><a href="./discover.html">Discover</a></li>
                 <li class="link"><a href="./index.html">Directory</a></li>
-                <li class="link"><a href="#">Join</a></li>
+                <li class="link"><a href="./join.html">Join</a></li>
                 <li class="link"><a href="#">Contact</a></li>
             </ul>
         </nav>
 
         <div id="date"></div>
     </header>
-    <main>
+    <main id="join">
+        <div>
+            <form action="thankyou.html" method="get">
+                <label class="myinput">First Name*<input type="text" name="fname" required></label>
+                <label class="myinput">Lirst Name*<input type="text" name="lname" required></label>
+                <label class="myinput">Title<input type="text" name="title" pattern="[a-zA-Z -]{7,}"></label>
+                <label class="myinput">Email*<input type="text" name="email" required></label>
+                <label class="myinput">Cell Phone*<input type="tel" name="cellphone" required></label>
+                <label class="myinput">Business Name<input type="text" name="bizname" required></label>
+                <h3>Membership Level</h3>
+                <label class="myradio"><input type="radio" name="level" value="nonprofit">Non-Profit</label>
+                <label class="myradio"><input type="radio" name="level" value="bronze">Bronze</label>
+                <label class="myradio"><input type="radio" name="level" value="silver">Silver</label>
+                <label class="myradio"><input type="radio" name="level" value="gold">Gold</label>
+                <label class="myinput">Business Description<textarea name="description" cols="40"
+                        rows="5"></textarea></label>
+                <label><input type="hidden" name="datetime" value="" id="date"></label>
+                <input type="submit" value="Join the Chamber!" class="mysubmit">
+            </form>
+        </div>
+        <div>
+            <h3>Membership Levels Benefits</h3>
 
+            <h3>NP Membership</h3>
+            <ol>
+                <li>For non profit organizations and there is no fee</li>
+            </ol>
+
+            <h3>Bronze Membership</h3>
+            <ol>
+                <li>15% discount on events</li>
+                <li>10% discount on advertising</li>
+                <li>Fee of $50/month</li>
+            </ol>
+            <h3>
+                Silver Membership</h3>
+            <ol>
+                <li>25% discount on events</li>
+                <li>15% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>Fee of $100/month</li>
+            </ol>
+            <h3>
+                Gold Membership</h3>
+            <ol>
+                <li>50% discount on events</li>
+                <li>50% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>5 free featured ads per year</li>
+                <li>1 free training per quarter</li>
+                <li>Fee of $250/month</li>
+            </ol>
+
+        </div>
     </main>
     <footer>
         <div class="footContaniner">
