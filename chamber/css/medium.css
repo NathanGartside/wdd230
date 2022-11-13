@@ -83,4 +83,38 @@
     .discover div img:hover {
         box-shadow: 0 0 50px #333;
     }
+
+    td {
+        display: inline;
+    }
+
+    .listDefault {
+        display: block;
+    }
+
+    .listpic {
+        opacity: 1;
+    }
+
+    .cardDefault {
+        display: none;
+    }
+
+    .gridpic {
+        opacity: .5;
+    }
+
+    tr {
+        height: 50px;
+    }
+
+    td {
+        margin-right: 50px;
+    }
+
+    .cardShow {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
 }

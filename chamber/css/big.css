@@ -101,4 +101,26 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .listDefault {
+        display: none;
+    }
+
+    .listpic {
+        opacity: .5;
+    }
+
+    .cardDefault {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .gridpic {
+        opacity: 1;
+    }
+
+    .cardShow {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }

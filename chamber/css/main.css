@@ -265,3 +265,64 @@ textarea {
 #thanksMain {
     display: block;
 }
+
+#directory {
+    display: block;
+}
+
+.noShow {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.cardShow {
+    display: block;
+}
+
+#grid,
+#list {
+    width: 50px;
+    height: 50px;
+}
+
+#cardview div img {
+    width: 200px;
+    height: auto;
+}
+
+.listDefault {
+    display: none;
+}
+
+.listpic {
+    opacity: .5;
+}
+
+
+table tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+
+td {
+    display: block;
+    width: 90%;
+    text-align: left;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#cardview div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5px;
+    border: none;
+    height: 350px;
+}
