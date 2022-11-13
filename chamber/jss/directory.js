@@ -10,10 +10,10 @@ function displayCard(card) {
     let cardview = document.querySelector("cardview");
     let cardel = document.createElement("div");
     cardel.innerHTML =
-        `<img src="${card.imgURL}" alt="">
+        `<img src="${card.img}" alt="">
         <p>${card.address}</p>
-        <p>${card.phone}</p>
-        <p><a href="">${card.websiteURL}</a></p>`;
+        <p>${card.phoneNumber}</p>
+        <p><a href="">${card.websiteAddress}</a></p>`;
 
     cardview.appendChild(childel);
 }
