@@ -8,7 +8,7 @@ let list = document.getElementById("list");
 
 grid.addEventListener("click", () => {
     let grid = document.getElementById("cardview");
-    let list = document.getElementById("listview")
+    let list = document.getElementById("listview");
     grid.classList.add("cardShow");
     grid.classList.remove("noShow");
     grid.classList.remove("cardDefault");
