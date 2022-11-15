@@ -10,4 +10,7 @@ function setwindchill(temp, windspeed) {
     document.getElementById("speed").textContent = `${windspeed} mph`;
 }
 
+
+
+
 setwindchill(49, 10);
