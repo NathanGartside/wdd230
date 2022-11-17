@@ -59,7 +59,7 @@
     }
 
     #hero button {
-        top: 300px;
+        top: 270px;
     }
 
     #join button {
@@ -100,11 +100,10 @@
     }
 
     tr {
-        height: 50px;
-    }
-
-    td {
-        margin-right: 50px;
+        height: 80px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .cardShow {

@@ -20,6 +20,7 @@
     .navigation {
         grid-column: 3/4;
         grid-row: 1/2;
+        padding-left: 0;
     }
 
     li {
@@ -96,6 +97,10 @@
         top: 550px;
     }
 
+    #hero h3 {
+        right: 200px;
+    }
+
     .listDefault {
         display: none;
     }
@@ -116,6 +121,17 @@
     .cardShow {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    nav div {
+        margin-left: 25px;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        margin: auto;
+        height: 100%;
     }
 
 }
