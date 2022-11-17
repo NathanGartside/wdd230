@@ -211,7 +211,8 @@ main h4 {
 }
 
 .discover div img {
-    height: 400px;
+    height: 200px;
+    width: auto;
     padding-top: 0;
 }
 
@@ -220,7 +221,7 @@ main h4 {
 }
 
 .discover div {
-    width: 620px;
+    width: 90%;
     margin: auto;
 }
 

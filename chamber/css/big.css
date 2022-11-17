@@ -134,4 +134,9 @@
         height: 100%;
     }
 
+    .discover div img {
+        height: 500px;
+        width: auto;
+    }
+
 }

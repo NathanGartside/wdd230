@@ -116,4 +116,9 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .discover div img {
+        height: 300px;
+        width: auto;
+    }
+
 }
