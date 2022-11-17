@@ -75,11 +75,6 @@
         margin-top: 20px;
     }
 
-    .discover {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
     .discover div img:hover {
         box-shadow: 0 0 50px #333;
     }
@@ -113,6 +108,11 @@
     }
 
     .cardShow {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #joinPage {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }

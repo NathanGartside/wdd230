@@ -37,24 +37,24 @@
 
         <div id="date"></div>
     </header>
-    <main id="join">
+    <main id="joinPage">
         <div>
             <form action="thankyou.html" method="get">
                 <label class="myinput">First Name*<input type="text" name="fname" required></label>
-                <label class="myinput">Lirst Name*<input type="text" name="lname" required></label>
+                <label class="myinput">Last Name*<input type="text" name="lname" required></label>
                 <label class="myinput">Title<input type="text" name="title" pattern="[a-zA-Z -]{7,}"></label>
                 <label class="myinput">Email*<input type="email" name="email" required
                         placeholder="example@gmail.com"></label>
                 <label class="myinput">Cell Phone*<input type="tel" name="cellphone" required></label>
                 <label class="myinput">Business Name<input type="text" name="bizname" required></label>
-                <h3>Membership Level</h3>
+                <h3 class="radiolabel">Membership Level</h3>
                 <label class="myradio"><input type="radio" name="level" value="nonprofit">Non-Profit</label>
                 <label class="myradio"><input type="radio" name="level" value="bronze">Bronze</label>
                 <label class="myradio"><input type="radio" name="level" value="silver">Silver</label>
                 <label class="myradio"><input type="radio" name="level" value="gold">Gold</label>
                 <label class="myinput">Business Description<textarea name="description" cols="40"
                         rows="5"></textarea></label>
-                <label><input type="hidden" name="datetime" value="" id="date"></label>
+                <label><input type="hidden" name="datetime" value="" id="joindate"></label>
                 <input type="submit" value="Join the Chamber!" class="mysubmit">
             </form>
         </div>

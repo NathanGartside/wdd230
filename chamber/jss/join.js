@@ -1,3 +1,3 @@
-var currentDateObj = document.getElementById("date");
-var todayDate = new Date();
+let currentDateObj = document.getElementById("joindate");
+let todayDate = new Date();
 currentDateObj.value = todayDate.toLocaleString();

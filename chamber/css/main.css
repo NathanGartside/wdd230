@@ -205,9 +205,17 @@ main h4 {
 }
 
 .discover div img {
-    width: 100%;
-    height: auto;
+    height: 400px;
     padding-top: 0;
+}
+
+.discover {
+    display: inline;
+}
+
+.discover div {
+    width: 620px;
+    margin: auto;
 }
 
 .myinput {
@@ -225,11 +233,14 @@ main h4 {
 
 .myradio {
     display: block;
+    text-align: left;
+    font-size: 20px;
 }
 
 .myradio input {
     margin-right: .5rem;
     font-size: 1.3rem;
+    margin-bottom: 44px;
 }
 
 input:required {
@@ -238,22 +249,12 @@ input:required {
 
 .myinput {
     font-size: 20px;
-}
-
-.myradio {
-    font-size: 20px;
+    text-align: left;
+    margin-left: 3px;
 }
 
 li {
     font-size: 20px;
-}
-
-input {
-    margin: auto;
-}
-
-textarea {
-    margin: auto;
 }
 
 #thanks {
@@ -325,4 +326,19 @@ table {
     margin-bottom: 5px;
     border: none;
     height: 350px;
+}
+
+#joinPage li {
+    list-style: none;
+}
+
+.radiolabel {
+    text-align: left;
+}
+
+.mysubmit {
+    background: #1e8bc6;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: right;
 }
