@@ -6,7 +6,7 @@ function setwindchill(temp, windspeed) {
         document.getElementById("windchill").textContent = chill;
     }
     document.querySelector(".temp").innerHTML = `${Math.round(temp)}&#8457;`;
-    document.getElementById("windspeed").textContent = `${windspeed} mph`;
+    document.getElementById("windspeed").textContent = `${Math.round(windspeed)} mph`;
 }
 
 function showWeather(obj) {
