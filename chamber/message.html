@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Home page for the chamber of commerce site">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/big.css">
     <script src="./jss/main.js" defer></script>
-    <script src="./jss/windchill.js" defer></script>
-    <script src="./jss/directors.js" defer></script>
-    <title>Riverside Chamber of Commerce</title>
+    <script src="./jss/join.js" defer></script>
+    <title>Join the Riverside chamber</title>
 </head>
 
 <body>
@@ -26,7 +24,7 @@
                 <h4>Chamber of Commerce</h4>
             </div>
             <img src="./img/facebook.jpg" class="facebook" alt="Facebook logo">
-            <img src="./img/linkedin.png" class="linkin" alt="Linkedin logo">
+            <img src="./img/linkedin.png" class="link" alt="Linkedin logo">
             <button id="menu" onclick="toggleMenu()"><span>&#9776;</span></button>
             <ul class="navigation">
                 <li class="link"><a href="./index.html">Home</a></li>
@@ -39,18 +37,9 @@
 
         <div id="date"></div>
     </header>
-    <main id="joinPage">
-        <div>
-            <h2>Contact us</h2>
-            <form action="message.html" method="get">
-                <label class="myinput">Name*<input type="text" name="name" required></label>
-                <label class="myinput">Email*<input type="email" name="email" required
-                        placeholder="example@gmail.com"></label>
-                <label class="myinput">Message*<textarea name="message" cols="40" rows="5" required></textarea></label>
-                <input type="submit" value="Send your Message!" class="mysubmit">
-            </form>
-        </div>
-        <div id="board" class="cards">
+    <main id="thanksMain">
+        <div id="thanks">
+            <h3>Thank you for sending your message. We will answer shortly.</h3>
         </div>
     </main>
     <footer>

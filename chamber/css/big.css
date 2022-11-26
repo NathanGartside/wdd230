@@ -139,4 +139,13 @@
         width: auto;
     }
 
+    #board {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section:nth-child(2) p:nth-child(2) {
+        margin-bottom: 35px;
+    }
+
 }
