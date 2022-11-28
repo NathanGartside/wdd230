@@ -217,7 +217,13 @@ main h4 {
 }
 
 .discover {
-    display: inline;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#discover {
+    margin-bottom: 5px;
 }
 
 .discover div {
