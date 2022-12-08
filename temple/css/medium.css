@@ -1,0 +1,32 @@
+@media screen and (min-width: 600px) {
+    .navigation {
+        display: grid;
+        list-style: none;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0px;
+        margin: 0;
+        height: 70%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 80px 1fr;
+    }
+
+    .link {
+        height: 100%;
+        background-color: white;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+
+}
