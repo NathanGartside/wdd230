@@ -28,5 +28,13 @@
         align-items: center;
     }
 
+    #home {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #hero {
+        grid-column: 1/4;
+    }
 
 }

@@ -6,7 +6,7 @@ function showWeather(obj) {
     document.getElementById("description").textContent = obj.weather[0].main;
     document.getElementById("weatherIcon").setAttribute("src", iconURL);
     document.querySelector("#temp").innerHTML = `${Math.round(temp)}&#8457;`;
-    document.getElementById("humidity").innerHTML = `${Math.round(hum)}%`;
+    document.getElementById("humidity").innerHTML = `Humidity: ${Math.round(hum)}%`;
 }
 
 const LAT = "38.9847";

@@ -15,7 +15,6 @@ body {
 
 .link {
     text-align: center;
-    background-color: #ff9554;
     height: 30px;
 }
 
@@ -39,6 +38,7 @@ nav {
 
 .link:hover {
     background-color: rgba(255, 149, 84, .7);
+    border-radius: 50%;
 }
 
 #logo {
@@ -59,4 +59,76 @@ footer {
 
 .media {
     height: 50px;
+}
+
+#home {
+    text-align: center;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-color: #ff9554;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+#heroImg {
+    padding-top: 10px;
+    width: 90%;
+    margin: auto;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#heroButton {
+    width: 80%;
+    margin: auto;
+    border-color: #ff9554;
+    background-color: white;
+    border-radius: 99%;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    margin-top: 50%;
+}
+
+#mediaOne {
+    border-color: #ff9554;
+    border-style: solid;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+#mediaOneImg {
+    width: 50px;
+}
+
+#mediaTwo {
+    border-color: #ff9554;
+    border-style: solid;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+#mediaTwoImg {
+    width: 50px;
+}
+
+#weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-color: #ff9554;
+    border-style: solid;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+#weatherTitle {
+    grid-column: 1/3;
+}
+
+#weatherIcon {
+    height: 100px;
+    margin: auto;
 }
