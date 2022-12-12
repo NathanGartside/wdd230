@@ -2,19 +2,55 @@
     "temple": [
         {
             "name": "Washington D.C. Temple",
-            "img": "https://assets.churchofjesuschrist.org/bd/5e/bd5e2be78d46adb6e79ad1b986fa0f4be7df83d1/exterior_washington_dc_temple.jpeg"
+            "id": "temple1",
+            "img": "https://assets.churchofjesuschrist.org/bd/5e/bd5e2be78d46adb6e79ad1b986fa0f4be7df83d1/exterior_washington_dc_temple.jpeg",
+            "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
+            "phone": "(1) 301-588-0650",
+            "email": "washingtonDCtemple@gamil.com",
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "Announced: 15 November 1968, Groundbreaking: 7 December 1968, Dedicated: 19 November 1974, Rededicated: 14 August 2022",
+            "ordinance": "Tuesday: 7-8pm, Wednesday: 7-8pm, Thursday: 10am-8pm, Friday: 10am-8pm, Saturday: 8am-8pm",
+            "session": "Tuesday: 7am-8pm, Wednesday: 7am-8pm, Thurdays: 10am-8pm, Friday: 10am-8pm, Saturday: 7am-7pm",
+            "closures": "Friday, 23 December 2022 (Limited Operations):Saturday, 24 December 2022:Saturday, 31 December 2022 (Limited Operations):Monday, 30 January 2023 - Monday, 13 February 2023:Saturday, 1 April 2023:Tuesday, 4 July:2023 Monday, 31 July 2023 - Monday, 14 August 2023"
         },
         {
             "name": "Las Vegas Nevada Temple",
-            "img": "https://assets.ldscdn.org/a2/87/a2876cf93e9b9908d223e09f4be65ae23cead8d4/las_vegas_temple_lds.jpg"
+            "id": "temple2",
+            "img": "https://assets.ldscdn.org/a2/87/a2876cf93e9b9908d223e09f4be65ae23cead8d4/las_vegas_temple_lds.jpg",
+            "address": "827 Temple View Dr Las Vegas NV 89110-2920 United States",
+            "phone": "(1) 702-452-5011",
+            "email": "lasVegasTemple@gmail.com",
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "Announced: 7 April 1984, Groundbreaking: 30 November 1985, Dedicated: 16 December 1989",
+            "ordinance": "Tuesday: 10am-8pm, Wednesday: 4-8pm, Thursday: 10am-8pm, Friday: 11am-8pm, Saturday: 10am-8pm",
+            "session": "Tuesday: 11am-8pm, Wednesday: 11am-8pm, Thurdays: 11am-8pm, Friday: 11am-8pm, Saturday: 10am-7pm",
+            "closures": "Saturday, 24 December 2022:Saturday, 31 December 2022:Monday, 9 January 2023 - Monday, 23 January 2023:Saturday, 1 April 2023:Tuesday, 4 July 2023:Monday, 24 July 2023 - Monday, 23 October 2023:Wednesday, 22 November 2023 - Thursday, 23 November 2023"
         },
         {
             "name": "Philadelphia Pennsylvania Temple",
-            "img": "https://assets.churchofjesuschrist.org/f2/2a/f22a5fadd1bbf56abba42f0fdb4321ffdf3cddf8/philadelphia_pennsylvania_temple_exterior.jpeg"
+            "id": "temple3",
+            "img": "https://assets.churchofjesuschrist.org/f2/2a/f22a5fadd1bbf56abba42f0fdb4321ffdf3cddf8/philadelphia_pennsylvania_temple_exterior.jpeg",
+            "address": "1739 Vine St Philadelphia PA 19103 United States",
+            "phone": "(1) 215-398-3040",
+            "email": "philadelphiaTemple@gmail.com",
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history": "Announced: 4 October 2008, Groundbreaking: 17 September 2011, Dedicated: 18 September 2016 ",
+            "ordinance": "Tuesday: 9am-8pm, Wednesday: 1-8pm, Thursday: 9am-8pm, Friday: 9am-8pm, Saturday: 9am-8pm",
+            "session": "Tuesday: 9am-8pm, Wednesday: 9am-8pm, Thurdays: 9am-8pm, Friday: 9am-8pm, Saturday: 9am-10pm",
+            "closures": "Saturday, 24 December 2022 - Sunday, 25 December 2022:Saturday, 31 December 2022:Monday, 20 March 2023 - Monday, 3 April 2023:Monday, 18 September 2023 - Monday, 16 October 2023"
         },
         {
             "name": "Fort Lauderdale Florida Temple",
-            "img": "https://assets.ldscdn.org/a1/2b/a12bee7d1fed9f81521f6ac1653a4845f0f632af/fort_lauderdale_florida_temple_lighted.jpeg"
+            "id": "temple4",
+            "img": "https://assets.ldscdn.org/a1/2b/a12bee7d1fed9f81521f6ac1653a4845f0f632af/fort_lauderdale_florida_temple_lighted.jpeg",
+            "address": "3901 SW 154th Ave Davie FL 33331 United States",
+            "phone": "(1) 954-382-8390",
+            "email": "fortLauderdaleTemple@gmail.com",
+            "services": "No clothing rental available, No cafeteria available, No patron housing available, no distribution center nearby",
+            "history": "Announced: 3 October 2009, Groundbreaking: 18 June 2011, Dedicated: 4 May 2014",
+            "ordinance": "Tuesday: 8am-8pm, Wednesday: 8am-8pm, Thursday: 8am-8pm, Friday: 8am-8pm, Saturday: 8am-8p",
+            "session": "Tuesday: 11am-8pm, Wednesday: 11am-8pm, Thurdays: 11am-8pm, Friday: 11am-8pm, Saturday: 11am-10pm",
+            "closures": "Saturday, 24 December 2022:Saturday, 31 December 2022:Saturday, 1 April 2023:Monday, 24 April 2023 - Monday, 22 May 2023:Tuesday, 4 July 2023:Saturday, 30 September 2023:Monday, 30 October 2023 - Monday, 13 November 2023:Wednesday, 22 November 2023 - Thursday, 23 November 2023"
         }
     ]
 }

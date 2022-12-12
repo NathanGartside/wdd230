@@ -6,6 +6,10 @@ body {
     display: none;
 }
 
+.extra {
+    display: none;
+}
+
 .responsive {
     display: block;
     list-style: none;
@@ -130,5 +134,22 @@ footer {
 
 #weatherIcon {
     height: 100px;
+    margin: auto;
+}
+
+#temple img {
+    width: 400px;
+}
+
+#temple {
+    text-align: center;
+}
+
+#temple section {
+    border-style: solid;
+    border-color: #ff9554;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    width: 95%;
     margin: auto;
 }
