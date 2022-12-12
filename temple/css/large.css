@@ -4,4 +4,8 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    .myradio input {
+        height: 10px;
+        width: 10px;
+    }
 }

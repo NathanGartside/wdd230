@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./css/large.css">
     <meta name="description" content="The home page for the temple inn and suites">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <script src="./js/main.js" defer></script>
     <title>Reservation Page</title>
 </head>
 
@@ -28,33 +27,10 @@
             </ul>
         </nav>
     </header>
-    <main id="reservation">
-        <form action="thankyou.html" method="get">
-            <label class="myinput">Where will you be staying? <input type="text" name="location"></label>
-            <h3 id="roomType">Room Type</h3>
-            <label class="myradio"><input type="radio" name="level"> Queen Size</label>
-            <label class="myradio"><input type="radio" name="level"> King Size</label>
-            <label class="myradio"><input type="radio" name="level"> Twin Size</label>
-            <br>
-            <label class="myinput">Number of rooms: <input type="number" name="roomNum"></label>
-            <br>
-            <label class="myinput">First Name: <input type="text" name="fname"></label>
-            <br>
-            <label class="myinput">Last Name: <input type="text" name="lname"></label>
-            <br>
-            <label class="myinput">Email: <input type="email" name="email"></label>
-            <br>
-            <label class="myinput">Phone Number: <input type="tel" name="phone"></label>
-            <br>
-            <label class="myinput">Where are you from: <input type="text" name="birth"></label>
-            <br>
-            <label><input type="hidden" name="datetime" value="" id="joindate"></label>
-            <br>
-            <label class="myinput">Any speical accommodations or comments? <textarea name="description" id="" cols="30"
-                    rows="10"></textarea></label>
-            <br>
-            <input type="submit" value="Book your room!" class="mysubmit">
-        </form>
+    <main id="thankyou">
+        <div id="thankDiv">
+            <p id="thankP">Thank you for booking a room, we are excited for your stay!</p>
+        </div>
     </main>
     <footer>
         <img src="./img/hotel.png" alt="logo" id="logo">
