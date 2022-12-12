@@ -37,4 +37,9 @@
         grid-column: 1/4;
     }
 
+    #temple {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
 }

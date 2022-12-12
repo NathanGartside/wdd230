@@ -138,7 +138,7 @@ footer {
 }
 
 #temple img {
-    width: 400px;
+    height: 170px;
 }
 
 #temple {
@@ -152,4 +152,15 @@ footer {
     margin-bottom: 5px;
     width: 95%;
     margin: auto;
+    margin-bottom: 5px;
+    vertical-align: top;
+}
+
+#temple input {
+    height: 20px;
+    width: 20px;
+}
+
+#temple label {
+    font-size: 20px;
 }

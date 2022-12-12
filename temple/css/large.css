@@ -1,1 +1,7 @@
-@media screen and (min-width: 900px) {}
+@media screen and (min-width: 1400px) {
+    #temple {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
