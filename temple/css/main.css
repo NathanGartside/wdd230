@@ -190,12 +190,17 @@ textarea {
 }
 
 form {
-    width: 450px;
+    width: 460px;
+    border-style: solid;
+    border-color: #ff9554;
+    border-radius: 20px;
+    padding-right: 15px;
 }
 
 .myinput input {
     float: right;
     width: 200px;
+    margin-right: 5px;
 }
 
 .myradio input {
@@ -223,4 +228,38 @@ form {
 
 #thankP {
     font-size: 30px;
+}
+
+#service {
+    text-align: center;
+}
+
+.serviceList {
+    list-style: none;
+    font-size: 20px;
+    padding: 0;
+}
+
+.serviceItem {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+#service div {
+    border-style: solid;
+    border-color: #ff9554;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.serviceImg {
+    width: 80%;
+}
+
+#service form {
+    border-style: none;
+}
+
+#service textarea {
+    margin: auto;
 }

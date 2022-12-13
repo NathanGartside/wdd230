@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <meta name="description" content="The home page for the temple inn and suites">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="./js/main.js" defer></script>
+    <title>Services Page</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="./index.html"><img src="./img/hotel.png" alt="Hotel Logo" id="logo"></a>
+            <button id="menu" onclick="toggleMenu()"><span>&#9776;</span></button>
+            <ul class="navigation">
+                <li class="link"><a href="./index.html">Home</a></li>
+                <li class="link"><a href="./temple.html">Temple</a></li>
+                <li class="link"><a href="./reservation.html">Reservation</a></li>
+                <li class="link"><a href="./services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="service">
+        <div id="special">
+            <h3 class="serviceTitle">Special Services</h3>
+            <ul class="serviceList">
+                <li class="serviceItem">Free access to changing rooms and bathroom facilities for temple patrons who
+                    have traveled far and need to change to and from church clothes</li>
+                <li class="serviceItem">A playroom and low-cost, short-term babysitting services for the children of
+                    patrons</li>
+                <li class="serviceItem">Long-term stay accommodations in kitchenette suites for full-time temple
+                    missionaries</li>
+                <li class="serviceItem">Temple history themed reception and sitting area</li>
+                <li class="serviceItem">A wedding reception hall that can be easily customized with a simple catering
+                    menu and kitchen access for food preparation and serving</li>
+                <li class="serviceItem">A family search center that supports family search and ordinance work</li>
+            </ul>
+        </div>
+        <div id="amenitie">
+            <h3 class="serviceTitle">Free Amenities</h3>
+            <ul class="serviceList">
+                <li class="serviceItem">Breakfast</li>
+                <li class="serviceItem">Exercise/workout room</li>
+                <li class="serviceItem">Indoor pool</li>
+                <li class="serviceItem">WiFi high-speed internet access and smart TVs</li>
+                <li class="serviceItem">Parking</li>
+                <li class="serviceItem">Temple shuttle</li>
+                <li class="serviceItem">Family history consultation and family ordinance card service</li>
+            </ul>
+        </div>
+        <div id="reception">
+            <h3 class="serviceTitle">Wedding Reception Accommodations</h3>
+            <ul class="serviceList">
+                <li class="serviceItem">Reserve hotel room block for guests</li>
+                <li class="serviceItem">Beautiful reception room with great decore</li>
+                <li class="serviceItem">Food service and simple catering</li>
+                <li class="serviceItem">Suround sound music system and dance floor</li>
+            </ul>
+        </div>
+        <div id="missionary">
+            <h3 class="serviceTitle">Hotel Suite for Missionaries</h3>
+            <ul class="serviceList">
+                <li class="serviceItem">Two twin size beds in each room</li>
+                <li class="serviceItem">Reserve hotel room block for zone or mission wide temple visits</li>
+            </ul>
+            <img src="./img/twin-bed.jpg" alt="Twin bed room" class="serviceImg">
+            <h3 class="serviceTitle">Have questions?</h3>
+            <form action="respond.html" method="get">
+                <label class="myinput">First Name: <input type="text" name="fname"></label>
+                <br>
+                <label class="myinput">Last Name: <input type="text" name="lname"></label>
+                <br>
+                <label class="myinput">Email: <input type="email" name="email"></label>
+                <br>
+                <label class="myinput">Message: <textarea name="description" id="" cols="30"
+                        rows="10"></textarea></label>
+                <input type="submit" value="Send your message!" class="mysubmit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <img src="./img/hotel.png" alt="logo" id="logo">
+        <a
+            href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">Headquarter</a>
+        <img src="./img/facebook.png" alt="Facebook" class="media">
+        <img src="./img/instagram.jpg" alt="Instagram" class="media">
+        <p>Last Updated: <span class="lastTimeUpdate"></span></p>
+    </footer>
+</body>
+
+</html>
